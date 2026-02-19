@@ -1,8 +1,8 @@
 import React from 'react';
-import { CLASSES } from '../constants';
-import { Button } from '../components/Button';
+import { CLASSES } from './constants';
+import { Button } from './Button';
 import { Clock, Calendar } from 'lucide-react';
-import { ScrollReveal } from '../components/ScrollReveal';
+import { ScrollReveal } from './ScrollReveal';
 
 export const Classes: React.FC = () => {
   return (

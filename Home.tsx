@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Trophy, Users, Clock, Flame, ChevronDown, ChevronUp } from 'lucide-react';
-import { Button } from '../components/Button';
-import { ScrollReveal } from '../components/ScrollReveal';
-import { TESTIMONIALS } from '../constants';
+import { Button } from './Button';
+import { ScrollReveal } from './ScrollReveal';
+import { TESTIMONIALS } from './constants';
 
 const FAQItem = ({ question, answer }: { question: string, answer: string }) => {
   const [isOpen, setIsOpen] = useState(false);

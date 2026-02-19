@@ -1,5 +1,5 @@
 import React from 'react';
-import { TESTIMONIALS } from '../constants';
+import { TESTIMONIALS } from './constants';
 import { Quote } from 'lucide-react';
 
 export const Transformations: React.FC = () => {

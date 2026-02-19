@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Button } from '../components/Button';
-import { ScrollReveal } from '../components/ScrollReveal';
+import { Button } from './Button';
+import { ScrollReveal } from './ScrollReveal';
 import { Activity, Zap, Utensils } from 'lucide-react';
 
 export const Tools: React.FC = () => {

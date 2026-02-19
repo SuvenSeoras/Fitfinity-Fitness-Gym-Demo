@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollReveal } from '../components/ScrollReveal';
+import { ScrollReveal } from './ScrollReveal';
 
 export const Gallery: React.FC = () => {
   const images = [
