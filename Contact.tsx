@@ -1,7 +1,7 @@
 import React from 'react';
-import { Button } from '../components/Button';
+import { Button } from './Button';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
-import { ScrollReveal } from '../components/ScrollReveal';
+import { ScrollReveal } from './ScrollReveal';
 
 export const Contact: React.FC = () => {
   return (

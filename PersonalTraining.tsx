@@ -1,7 +1,7 @@
 import React from 'react';
-import { TRAINERS } from '../constants';
-import { Button } from '../components/Button';
-import { ScrollReveal } from '../components/ScrollReveal';
+import { TRAINERS } from './constants';
+import { Button } from './Button';
+import { ScrollReveal } from './ScrollReveal';
 
 export const PersonalTraining: React.FC = () => {
   return (

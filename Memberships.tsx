@@ -1,8 +1,8 @@
 import React from 'react';
-import { PRICING } from '../constants';
+import { PRICING } from './constants';
 import { Check } from 'lucide-react';
-import { Button } from '../components/Button';
-import { ScrollReveal } from '../components/ScrollReveal';
+import { Button } from './Button';
+import { ScrollReveal } from './ScrollReveal';
 
 export const Memberships: React.FC = () => {
   return (
